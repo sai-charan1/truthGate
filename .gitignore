@@ -1,0 +1,13 @@
+.env
+data/raw/
+data/chunks/
+data/index/
+evals/eval_results.json
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.egg-info/
+dist/
+build/
+.pytest_cache/

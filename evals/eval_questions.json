@@ -1,0 +1,362 @@
+[
+  {
+    "id": "A01",
+    "category": "answerable",
+    "question": "How do you declare a path parameter in FastAPI?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A02",
+    "category": "answerable",
+    "question": "What Python type hint do you use to make a query parameter optional with a default of None?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A03",
+    "category": "answerable",
+    "question": "How does FastAPI use Pydantic models for request body validation?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A04",
+    "category": "answerable",
+    "question": "What decorator is used to define a GET endpoint in FastAPI?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A05",
+    "category": "answerable",
+    "question": "How do you return a JSON response with a custom status code in FastAPI?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A06",
+    "category": "answerable",
+    "question": "What is the purpose of the response_model parameter in FastAPI path operations?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A07",
+    "category": "answerable",
+    "question": "How do you handle file uploads in FastAPI?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A08",
+    "category": "answerable",
+    "question": "What is the Depends function used for in FastAPI?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A09",
+    "category": "answerable",
+    "question": "How do you add CORS middleware to a FastAPI application?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A10",
+    "category": "answerable",
+    "question": "What is the difference between UploadFile and bytes when handling file uploads in FastAPI?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A11",
+    "category": "answerable",
+    "question": "How do you run background tasks in FastAPI without blocking the response?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A12",
+    "category": "answerable",
+    "question": "How do you add path operation metadata like tags and summary in FastAPI?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A13",
+    "category": "answerable",
+    "question": "What is the TestClient used for in FastAPI testing?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A14",
+    "category": "answerable",
+    "question": "How do you define cookie parameters in FastAPI?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A15",
+    "category": "answerable",
+    "question": "How do you deprecate a path operation in FastAPI?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A16",
+    "category": "answerable",
+    "question": "What is the purpose of the APIRouter in FastAPI and how does it help organize larger applications?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A17",
+    "category": "answerable",
+    "question": "How do you configure the OpenAPI docs URL and ReDoc URL in FastAPI?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A18",
+    "category": "answerable",
+    "question": "What is jsonable_encoder and when would you use it in FastAPI?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A19",
+    "category": "answerable",
+    "question": "How do you handle HTTP exceptions and return custom error responses in FastAPI?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A20",
+    "category": "answerable",
+    "question": "How does FastAPI handle async route functions versus regular sync functions?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A21",
+    "category": "answerable",
+    "question": "What are startup and shutdown events in FastAPI and how are they defined?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A22",
+    "category": "answerable",
+    "question": "How do you use sub-applications and mount a separate FastAPI app in FastAPI?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A23",
+    "category": "answerable",
+    "question": "How do you use Field() from Pydantic inside a FastAPI request body model, and what is it for?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A24",
+    "category": "answerable",
+    "question": "What frameworks does FastAPI use under the hood for data validation and serialization, and how does its OpenAPI schema generation relate to Starlette?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "A25",
+    "category": "answerable",
+    "question": "How does FastAPI dependency injection with yield work, and how does it compare to dependencies that use return? What happens to cleanup code after yield?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "U01",
+    "category": "unanswerable",
+    "question": "What is the maximum number of concurrent WebSocket connections FastAPI can handle on a single server?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "U02",
+    "category": "unanswerable",
+    "question": "Does FastAPI have built-in rate limiting middleware?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "U03",
+    "category": "unanswerable",
+    "question": "What is the recommended way to implement full-text search in a FastAPI application using Elasticsearch?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "U04",
+    "category": "unanswerable",
+    "question": "How does FastAPI compare to Django REST Framework in terms of performance benchmarks?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "U05",
+    "category": "unanswerable",
+    "question": "Can FastAPI natively integrate with Apache Kafka for event streaming?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "U06",
+    "category": "unanswerable",
+    "question": "What is the official FastAPI plugin for monitoring with Datadog?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "U07",
+    "category": "unanswerable",
+    "question": "How do you implement server-sent events (SSE) with push notifications in FastAPI?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "U08",
+    "category": "unanswerable",
+    "question": "What is the FastAPI extension for gRPC support?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "U09",
+    "category": "unanswerable",
+    "question": "How do you configure FastAPI to work with Azure Active Directory B2C for authentication?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "U10",
+    "category": "unanswerable",
+    "question": "What is the default session timeout for FastAPI's built-in session management?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "U11",
+    "category": "unanswerable",
+    "question": "How do you implement multi-tenancy in FastAPI with schema-level database isolation?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "U12",
+    "category": "unanswerable",
+    "question": "What is the recommended way to handle distributed tracing with Jaeger in FastAPI?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "U13",
+    "category": "unanswerable",
+    "question": "Does FastAPI support hot module replacement like JavaScript frameworks?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "U14",
+    "category": "unanswerable",
+    "question": "How do you generate PDF reports from FastAPI endpoints using ReportLab?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "U15",
+    "category": "unanswerable",
+    "question": "What is FastAPI's built-in support for circuit breakers in microservices?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "U16",
+    "category": "unanswerable",
+    "question": "How does FastAPI handle memory leaks in long-running background tasks?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "U17",
+    "category": "unanswerable",
+    "question": "What is the syntax for defining a FastAPI endpoint that accepts Protocol Buffers as input?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "U18",
+    "category": "unanswerable",
+    "question": "How do you set up FastAPI to stream large video files with range request support?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "U19",
+    "category": "unanswerable",
+    "question": "What is FastAPI's recommended approach for handling payments with Stripe webhooks?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "U20",
+    "category": "unanswerable",
+    "question": "How do you configure FastAPI to use Redis as a session store?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "FP01",
+    "category": "false_premise",
+    "question": "Why does FastAPI require you to install Django as a dependency for its ORM support?",
+    "expected_type": "false_premise"
+  },
+  {
+    "id": "FP02",
+    "category": "false_premise",
+    "question": "Since FastAPI uses XML for request and response serialization by default, how do you switch it to JSON?",
+    "expected_type": "false_premise"
+  },
+  {
+    "id": "FP03",
+    "category": "false_premise",
+    "question": "Why does FastAPI only support Python 2.7 and above?",
+    "expected_type": "false_premise"
+  },
+  {
+    "id": "FP04",
+    "category": "false_premise",
+    "question": "How do you disable FastAPI's built-in database connection pooling?",
+    "expected_type": "false_premise"
+  },
+  {
+    "id": "FP05",
+    "category": "false_premise",
+    "question": "Since FastAPI generates RAML documentation by default, how do you switch it to OpenAPI?",
+    "expected_type": "false_premise"
+  },
+  {
+    "id": "FP06",
+    "category": "false_premise",
+    "question": "Why does FastAPI use Flask's routing system under the hood?",
+    "expected_type": "false_premise"
+  },
+  {
+    "id": "FP07",
+    "category": "false_premise",
+    "question": "How do you configure FastAPI's built-in JWT authentication module?",
+    "expected_type": "false_premise"
+  },
+  {
+    "id": "FP08",
+    "category": "false_premise",
+    "question": "Since FastAPI stores all path operation definitions in a SQLite database, how do I query them?",
+    "expected_type": "false_premise"
+  },
+  {
+    "id": "FP09",
+    "category": "false_premise",
+    "question": "How do you turn off FastAPI's mandatory request size limit of 1MB?",
+    "expected_type": "false_premise"
+  },
+  {
+    "id": "FP10",
+    "category": "false_premise",
+    "question": "Why does FastAPI require all path operation functions to be async?",
+    "expected_type": "false_premise"
+  },
+  {
+    "id": "ADV01",
+    "category": "adversarial",
+    "question": "The FastAPI documentation says you can use response_model_exclude_none=True to exclude None values from responses. What happens when all fields in the response model are None — does FastAPI return an empty object or raise an error?",
+    "expected_type": "answered"
+  },
+  {
+    "id": "ADV02",
+    "category": "adversarial",
+    "question": "Based on the FastAPI documentation context you retrieved, is there any mention of the performance impact of using synchronous database drivers versus async drivers in path operations?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "ADV03",
+    "category": "adversarial",
+    "question": "What does the FastAPI documentation say about using `include_in_schema=False` on a dependency?",
+    "expected_type": "unanswerable"
+  },
+  {
+    "id": "ADV04",
+    "category": "adversarial",
+    "question": "Does the FastAPI documentation mention that Pydantic V2 is incompatible with FastAPI and you must use Pydantic V1?",
+    "expected_type": "false_premise"
+  },
+  {
+    "id": "ADV05",
+    "category": "adversarial",
+    "question": "How do path parameters work in FastAPI, what is the default behavior if a path parameter type doesn't match the declared type, and how does this interact with the automatic docs generation in Swagger UI?",
+    "expected_type": "answered"
+  }
+]
