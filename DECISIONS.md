@@ -23,6 +23,6 @@ First version of the chunker split on sentences using `nltk.sent_tokenize`. The 
 
 **Category where it still fails:** Adjacent technology questions. If you ask "How do you configure SQLAlchemy's connection pool timeout when using it with FastAPI?" — this is unanswerable from the docs, but the retrieval score is high (the docs do mention SQLAlchemy). The LLM sees real-looking context about SQLAlchemy + FastAPI and sometimes answers from training knowledge about SQLAlchemy specifically, even though that wasn't in the corpus. The threshold helps but doesn't fully catch these. I'd need explicit source-grounding verification to handle this properly.
 
-## 5. Shortcuts Taken Due to 24h Limit
+## 4. Shortcuts Taken Due to 24h Limit
 
 The embedding model choice. I used `all-MiniLM-L6-v2` because it's small and fast — loads in ~2 seconds, runs inference locally, zero API cost. But it's an older model with a max sequence length of 256 tokens, which means long chunks get silently truncated during embedding. For a proper system I'd evaluate `bge-large-en-v1.5` or `text-embedding-3-small` and run actual retrieval quality benchmarks (recall@5 on a labeled set) before committing to an embedding model. I didn't have time for that comparison so I went with the safe/fast choice and acknowledged the truncation risk in a code comment.
